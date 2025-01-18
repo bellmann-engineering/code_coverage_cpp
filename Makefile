@@ -1,7 +1,7 @@
 # Compiler and flags
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -fprofile-arcs -ftest-coverage
-LDFLAGS = -lgcov
+LDFLAGS = -lgtest -lgtest_main -lpthread
 
 # Directories
 SRC_DIR = src
