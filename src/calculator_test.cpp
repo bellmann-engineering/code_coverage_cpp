@@ -6,6 +6,11 @@ TEST(CalculatorTest, AddWorks) {
     EXPECT_EQ(calc.Add(2, 3), 5);
 }
 
+// TEST(CalculatorTest, MutliWorks) {
+//     Calculator calc;
+//     EXPECT_EQ(calc.Multiply(2, 3), 6);
+// }
+
 TEST(CalculatorTest, SubtractWorks) {
     Calculator calc;
     EXPECT_EQ(calc.Subtract(5, 3), 2);
